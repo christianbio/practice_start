@@ -1,9 +1,9 @@
 name: testflow
 on: workflow_dispatch
 jobs:
-	first_job_name:
-		run_on: ubuntu_latest
-		steps:
-		- name: Print Greeting
-		run: echo "Hello World!"
+   first_job_name:
+      run_on: ubuntu_latest
+      steps:
+        - name: Print Greeting
+          run: echo "Hello World!"
 		
